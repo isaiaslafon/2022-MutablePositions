@@ -1,13 +1,13 @@
 import wollok.game.*
 import objectsAndColliders.*
 import direcciones.*
-import sound.wlk
+import Sound.wlk
 import MutablePosition.*
 import animations.*
 
 object configuracion {
 	
-	const  mainTheme = new sound(soundFile = "mainTheme.mp3")
+	const  mainTheme = new sound(soundFile = "")
 	
 	var genVolume = 30
 	var volumeFactor = 100
@@ -18,7 +18,7 @@ object configuracion {
 	method genVolume() { return genVolume }
 	
 	method changeGenVolume(_volume){
-		genVolume = _volumen.max(0).min(volumeFactor)
+		genVolume = _volume.max(0).min(volumeFactor)
 	}
 	
 	method mainTheme() {return mainTheme}
