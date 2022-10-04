@@ -1,9 +1,9 @@
 import wollok.game.*
-import configuracion.*
+import configuration.*
 
 program juego {
 	
-	game.title("1942")
+	game.title("Mutable Positions")
 	
 	game.cellSize(50)
 	

@@ -1,15 +1,9 @@
-import configuracion.*
+import configuration.*
 import wollok.game.*
-import asteroide.*
-import avion.*
-import balas.*
 import animations.*
 import sonidos.*
 import MutablePosition.*
-import carcazas.*
-import balas.*
 import objectsAndColliders.*
-import provisiones.*
 
 class TemplateVida
 {

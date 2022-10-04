@@ -1,16 +1,10 @@
 
 import wollok.game.*
-import avion.*
 import direcciones.*
-import balas.*
-import asteroide.*
-import configuracion.*
-import lanzadores.*
+import configuration.*
 import templates.*
 
 import MutablePosition.*
-
-import carcazas.*
 
 describe "Funcionamiento de movimientos" {
 	

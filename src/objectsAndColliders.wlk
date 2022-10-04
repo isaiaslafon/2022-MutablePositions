@@ -1,8 +1,6 @@
 import wollok.game.*
-import configuracion.*
+import configuration.*
 import direcciones.*
-import asteroide.*
-import avion.*
 import MutablePosition.*
 
 
